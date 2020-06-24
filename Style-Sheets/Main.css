@@ -1,0 +1,229 @@
+/*Chap7*/
+html {
+	background-image: url(background%201.png);	
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body  {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width: 1000px;
+	background-color: white;
+	margin: 0 auto; 
+	padding: 0;
+	border: 3px solid black;
+	box-shadow: 0 9px 18px 9px;
+}
+h1, h2, h3, p {
+	margin: 0;
+	padding: 0;
+}
+
+
+/* Header */
+header { 
+    background-image: -webkit-linear-gradient(45deg, #17A3B1 10%, #2E6369 75%, black 100%);
+    background-image: -moz-linear-gradient(45deg, #17A3B1 10%, #2E6369 75%, black 100%);
+    background-image: -o-linear-gradient(45deg, #17A3B1 10%, #2E6369 75%, black 100%);
+    background-image: linear-gradient(45deg, #17A3B1 10%, #2E6369 75%, black 100%);
+    padding: 15px; 
+    border-bottom: 2px solid black; 
+} 
+header img { 
+	float: left; 
+	padding-right: 15px;  
+} 
+header h2 {
+	font-size: 230%;
+}
+header h3 {
+	font-size: 125%;
+}
+nav {
+	background-color: black;
+	width: 100%;
+	clear: all;
+}
+nav ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: block;
+	position: relative;
+	text-align: center;
+	
+}
+nav a:link, a:visited { 
+    color: white; 
+}
+nav a:hover, a:focus { 
+    color: #96F2FC;
+}
+nav ul li a.current{
+	color: #96F2FC;
+}
+nav ul li{
+	float: left;
+	width: 20%;
+}
+nav ul li a {
+	display: block;
+	text-decoration: none;
+	padding-top: 1em;
+}
+nav ul ul {
+	display: none;
+	position: absolute;
+	background-color: black;
+    opacity: 0.93; 
+	width: 120px;
+}
+nav ul ul li {
+	float: none;
+	width: 110px;
+	text-align: center;
+	padding: 10px 0;
+}
+nav ul ul li a:link{
+	margin: 0;
+}
+nav ul ul il a{
+	text-align: center;
+	display: block;
+	padding: 10px 2px;
+}
+nav ul li:hover> ul{
+	display: block;
+	clear: both;
+}
+nav ul li:hover, nav ul li:focus{
+	background-color: gray;
+}
+nav ul ul li {
+	float: none;
+	position: relative;
+
+}
+nav a{
+    color: white;
+}
+
+#Title{
+    padding-left: 50px;
+    font-size: 500%;
+    font-family: ;
+    
+}
+
+.logo{
+    width: 170px;
+    padding-left: 190px
+   
+}
+
+#home{
+    color:#96F2FC;
+}
+
+#toa{
+    width: 95%;
+}
+
+#cont{
+    color: white;
+}
+
+#Toa1{
+    color: white;
+}
+
+#gal{
+    color: white;
+}
+
+#Logo1{
+    width: 600px
+}
+
+
+#Kopaka{
+    width: 550px;
+}
+
+#KTable{
+    border: 3px solid #96F2FC;
+}
+
+
+#name{
+    color: white;
+}
+
+/*Aside*/
+aside {
+	float: left;
+	width: 160px;
+    
+}
+aside ul{
+	text-align: center;
+}
+aside ul li{
+	border: solid black;
+	background-color: red;
+	margin-bottom: 10px;
+	list-style: none;
+}
+aside ul li a{
+	text-decoration: none;
+	display: block;
+}
+aside a:link, a:visited { 
+    color: white;
+}
+aside a:hover, a:focus { 
+    color: blue;
+	font-weight: bold;
+}
+/* Main */
+main {
+	padding: 20px 25px 25px 180px;
+	width: 600px;
+}
+main h1 { 
+	font-size: 140%;
+	margin-bottom: .5em;
+}
+main h1:first-letter { 
+	font-size: 240%;
+}
+main h2 {
+	font-size: 125%;
+	margin: .8em 0 .5em 0;
+}
+main h3 {
+	font-size: 110%;
+	margin-bottom: .5em;
+}
+main p {
+	margin-bottom: .5em;
+}
+main ul {
+	margin-top: 0;
+}
+
+
+/* Footer */
+footer { 
+	border-top: 2px solid black;
+	padding: 15px;
+	clear: both;
+    background-color: cadetblue
+    /*background-image: -webkit-linear-gradient(45deg, black 0%, orange 25%, white 100%);
+    background-image: -moz-linear-gradient(45deg, black 0%, orange 25%, white 100%);
+    background-image: -o-linear-gradient(45deg, black 0%, orange 25%, white 100%);
+    background-image: linear-gradient(45deg, black 0%, orange 25%, white 100%);*/
+} 
+footer p {
+	font-size: 90%;
+	text-align: center;
+}
