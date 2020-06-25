@@ -158,6 +158,10 @@ nav a{
     color: white;
 }
 
+#bioIcon{
+	width:23px;
+}
+
 /*Aside*/
 aside {
 	float: left;
