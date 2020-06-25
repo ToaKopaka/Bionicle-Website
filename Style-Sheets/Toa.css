@@ -153,6 +153,9 @@ nav a{
     border: 3px solid #96F2FC;
 }
 
+#bioIcon{
+	width:23px;
+}
 
 #name{
     color: white;
@@ -210,6 +213,7 @@ main p {
 main ul {
 	margin-top: 0;
 }
+
 
 
 /* Footer */
